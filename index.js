@@ -37,8 +37,8 @@ function generateRandomPassword(length) {
 
 function generatePasswords() {
     let length = parseInt(lengthEl.value)
-    if (length < 3 || length > 10) {
-        alert("Please enter a password length between 3 and 10")
+    if (length < 2 || length > 10) {
+        alert("Please enter a password length between 2 and 10")
         }
     firstPassword.textContent = generateRandomPassword(length);
     secondPassword.textContent = generateRandomPassword(length)
