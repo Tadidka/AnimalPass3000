@@ -8,7 +8,7 @@ p{font-size: larger}
 
 .inputs{margin-top: 50px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px; font-size: 20px; color: RGBA(51, 170, 187, 1)}
 
-input {border: 2px solid lightblue; padding: 8px; border-radius: 10px}
+input {border: 2px solid lightblue; padding: 8px; border-radius: 10px; font-size: 16px}
 
 button{font-family: Georgia, 'Times New Roman', Times, serif; border: 2px solid lightblue; border-radius: 8px; padding: 10px 20px 10px 20px; font-size: 20px; font-weight: 600; background-color: hsla(0, 0%, 100%, 1); color: RGBA(51, 170, 187, 0.9)}
 
