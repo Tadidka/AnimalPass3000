@@ -41,6 +41,7 @@ function generatePasswords() {
         alert("Please enter a password length between 2 and 10")
         firstPassword.textContent = "";
         secondPassword.textContent = "";
+        return
         }
     firstPassword.textContent = generateRandomPassword(length);
     secondPassword.textContent = generateRandomPassword(length)
